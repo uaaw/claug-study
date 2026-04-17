@@ -2,11 +2,11 @@
 
 int main(void)
 {
-  int a = 57;
-  int b = a + 12;
+  int no;
+  printf("enter a number! : ");
+  scanf("%d", &no);
   
-  printf("a is %d \n", a);
-  printf("b is %d \n", b);
+  printf("your enter number is %d \n", no);
   
   return 0;
 }
